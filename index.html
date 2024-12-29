@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa Inovadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos Globais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1rem;
+        }
+
+        /* Navegação */
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
+        }
+
+        /* Seções */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #4CAF50;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .section p {
+            font-size: 1rem;
+        }
+
+        /* Serviços */
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .service {
+            flex: 1 1 30%;
+            background-color: white;
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service h3 {
+            color: #4CAF50;
+            margin-bottom: 0.5rem;
+        }
+
+        .service p {
+            font-size: 0.9rem;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Empresa Inovadora</h1>
+        <p>Transformando ideias em soluções digitais</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- Seções -->
+    <div class="container">
+        <!-- Sobre -->
+        <section id="sobre" class="section">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma empresa dedicada à inovação e tecnologia. Nosso objetivo é oferecer soluções modernas para
+                atender às demandas do mercado.</p>
+        </section>
+
+        <!-- Serviços -->
+        <section id="servicos" class="section">
+            <h2>Serviços</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Criamos sites modernos e responsivos para alavancar sua presença online.</p>
+                </div>
+                <div class="service">
+                    <h3>Design UI/UX</h3>
+                    <p>Projetamos interfaces intuitivas e agradáveis para seus usuários.</p>
+                </div>
+                <div class="service">
+                    <h3>Consultoria Tecnológica</h3>
+                    <p>Oferecemos suporte para transformar suas ideias em projetos de sucesso.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações:</p>
+            <p>Email: contato@empresainovadora.com</p>
+            <p>Telefone: (31) 99999-9999</p>
+        </section>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Empresa Inovadora. Todos os direitos reservados. <a href="#">Política de Privacidade</a></p>
+    </footer>
+</body>
+</html>
